@@ -3,7 +3,8 @@ new Vue({
     data: {
         profileData: {
             name: '!TYL3Rk',
-            description: 'I have been a FiveM game developer since 2021.'
+            description: 'I have been a FiveM game developer since 2021.',
+            status: 'หางาน Developer หลังบ้าน 1 ที่ (เป็นประจำ)'
         },
         socialLinks: [
             { name: 'GitHub', icon: 'fab fa-github', url: 'https://github.com/1TYL3Rk' },
