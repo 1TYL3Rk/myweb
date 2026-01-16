@@ -10,12 +10,12 @@
     --text-primary: rgba(230, 230, 230, 1);
     --text-secondary: rgba(200, 200, 200, 0.8);
     /* Primary Colors */
-    --color-1:#07103b;
+    --color-1: #07103b;
     --color-2: #4e0606;
-    --color-primary: #4f95ff;
-    --color-hover: rgba(55, 180, 220, 0.75);
-    --color-secondary: #0b62b4;
-    --color-dark: rgb(30, 50, 100);
+    --color-primary: #512da8;
+    --color-hover: #b39ddb;
+    --color-secondary: #7e57c2;
+    --color-dark: #311b92;
     /* Deep Indigo */
     /* Accent Colors */
     --color-glow: #00E5FF;
@@ -50,7 +50,7 @@
 
 body {
     font-family: 'Noto Sans Thai', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #07103b 0%, #4e0606 100%);
+    background: linear-gradient(135deg, var(--color-1) 0%, var(--color-2) 100%);
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -81,7 +81,7 @@ body {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    background: white;
+    /* background: white; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -190,7 +190,7 @@ h1 {
 
 .skill-progress {
     height: 100%;
-    background: var(--gradient-6);
+    background: var(--gradient-2);
     border-radius: 10px;
     transition: width 1s ease;
 }
@@ -205,15 +205,12 @@ h1 {
     .header {
         padding: 40px 20px;
     }
-
     h1 {
         font-size: 2em;
     }
-
     .content {
         padding: 30px 20px;
     }
-
     .skills-grid {
         grid-template-columns: 1fr;
     }
