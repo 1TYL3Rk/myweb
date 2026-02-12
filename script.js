@@ -12,14 +12,8 @@ new Vue({
             { name: 'Discord: _azaretz', icon: 'fab fa-discord', url: 'https://www.discord.com' }
         ],
         skills: [
-            // { name: 'Vue.js', level: 90 },
-            // { name: 'JavaScript', level: 85 },
-            // { name: 'HTML/CSS', level: 95 },
-            // { name: 'Node.js', level: 80 },
-            // { name: 'Python', level: 75 },
-            // { name: 'Git', level: 85 }
-            { name: 'Lua [FiveM]', level: 80 },
-            { name: 'HTML/CSS', level: 60 },
+            { name: 'Lua FiveM Native', level: 80 },
+            { name: 'HTML', level: 60 },
             { name: 'Javascript', level: 30 }
         ]
     }
